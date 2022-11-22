@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/fari', function () {
+    return view('fari');
+});
+Route::get('/fari2', function () {
+    return view('bebas');
+});
+
